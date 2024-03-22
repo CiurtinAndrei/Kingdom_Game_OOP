@@ -26,6 +26,7 @@ Observations
 It is guaranteed that if a kingdom appears as a vassal, it will not appear again as a vassal.
 It is guaranteed that if a kingdom appears as a vassal, it will not appear later as a suzerain.
 Kingdoms that do not appear as vassals are independent.
-If a vassal kingdom from an ANGLO-SAXON culture has 2000 troops and parameters "10 1200", it will offer only 1000 troops. 10% of 2000 is 200, but it must offer at least 1200. At the same time, it cannot offer more than half, which is the strongest condition.
+If a vassal kingdom from an ANGLO-SAXON culture has 2000 troops and parameters "10 1200", it will offer only 1000 troops. 10% of 2000 is 200, but it must offer at least 1200. 
+At the same time, it cannot offer more than half, which is the strongest condition.
 For cultures {FRANK, ANGLO-SAXON} the number of troops given to the suzerain kingdom is calculated as the integer part of (percentage * number_of_troops) / 100.
 The total number of troops is also considered with the troops received from vassals.
