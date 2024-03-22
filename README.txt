@@ -1,7 +1,8 @@
 
 In the game world, there are several kingdoms. Each kingdom has a number of its own troops in the army. Kingdoms can be independent or vassal, and each kingdom belongs to a culture, which cannot be changed over time.
 If kingdom A is a vassal, then it is subordinate to another kingdom B. Kingdom B is called the suzerain of kingdom A, and kingdom A is called the vassal of kingdom B. Each vassal kingdom, depending on its culture, 
-will provide a certain number of troops to the suzerain kingdom to which it belongs. Regardless of culture, a kingdom cannot provide more than half of its total troops (which includes the troops it receives from its own vassals, if any).
+will provide a certain number of troops to the suzerain kingdom to which it belongs. Regardless of culture, a kingdom cannot provide more than half of its total troops 
+(which includes the troops it receives from its own vassals, if any).
 In the game world, there are 3 important cultures:
 ● Byzantine culture - vassals from this culture will provide a fixed number of troops to the suzerain kingdom they belong to.
 ● Frankish culture - vassals from this culture will provide a percentage of the total number of troops they have to the suzerain kingdom they belong to.
